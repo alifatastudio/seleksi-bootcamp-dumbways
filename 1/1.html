@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="bootstarp/css/bootstrap.css">
+
+  <title>BootCamp DumbWays</title>
+</head>
+<body>
+  
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 m-0 pt-4 pb-4 text-monospace">
+        
+        <div>
+          <div class="form-group">
+            <label for="full_name">name lengkap</label>
+            <input type="text" name="full_name" id="full_name"
+              class="form-control">
+          </div>
+
+          <div class="form-group">
+            <label for="city">Tempat lahir</label>
+            <select name="city" id="city"
+              class="form-control">
+              <option value=''></option>
+              <option value='1'>Jakarta</option>
+              <option value='2'>Bandung</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="birth_date">Tanggal lahir</label>
+            <input type="text" name="birth_date" id="birth_date"
+              class="form-control" placeholder="yyyy-mm-dd"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Nomer Hp.</label>
+            <input type="text" name="phone" id="phone"
+              class="form-control" placeholder="085xxx" 
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="address">Alamat</label>
+            <textarea type="text" name="address" id="address" rows="2"
+              class="form-control" placeholder="alamat Anda" 
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="last_education">Pendidikan terakhir</label>
+            <select name="last_education" id="last_education"
+              class="form-control">
+              <option value=''></option>
+              <option value='1'>SD</option>
+              <option value='2'>SMP</option>
+              <option value='2'>SMA</option>
+              <option value='2'>S1</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0">Agama</legend>
+              <div class="col-sm-10">
+
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" name="islam" id="islam" 
+                    value="islam">
+                  <label for="islam" class="form-check-label">
+                    Islam
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" name="kristen" id="kristen" 
+                    value="kristen">
+                  <label for="kristen" class="form-check-label">
+                    Kristen
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" name="katolik" id="katolik" 
+                    value="katolik">
+                  <label for="katolik" class="form-check-label">
+                    Katolik
+                  </label>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0">Hobi</legend>
+              <div class="col-sm-10">
+
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" name="renang" id="renang" 
+                    value="renang">
+                  <label for="renang" class="form-check-label">
+                    renang
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" name="Mancing" id="Mancing" 
+                    value="Mancing">
+                  <label for="Mancing" class="form-check-label">
+                    Mancing
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" name="Game" id="Game" 
+                    value="Game">
+                  <label for="Game" class="form-check-label">
+                    Game
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" name="Ghibah" id="Ghibah" 
+                    value="Ghibah">
+                  <label for="Ghibah" class="form-check-label">
+                    Ghibah
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" name="Programing" id="Programing" 
+                    value="Programing">
+                  <label for="Programing" class="form-check-label">
+                    Programing
+                  </label>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+
+  <script src="bootstarp/js/bootstrap.bundle.js"></script>
+</body>
+</html>
